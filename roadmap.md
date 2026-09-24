@@ -1,0 +1,14 @@
+- [x] Build tap-to-open engagement envelope and invitation
+- [x] Add music, scratch reveal, countdown, confetti, story, and event details
+- [x] Add Ganesh Ji with a shlok at the top of the opening screen
+- [x] Verify phone and desktop presentation
+- [x] Hide the date until the scratch card is revealed
+- [x] Simplify the envelope to a “Tap to open” seal only
+- [x] Add “You are invited” and reshape the scratch card as a heart
+- [x] Make music start reliably after tapping the envelope
+- [x] Complete narrow-phone layout verification
+- [x] Reveal both date and time only after scratching, with a smooth heart outline
+- [x] Add scroll-triggered AI-style typing reveals to invitation sections
+- [x] Restyle “Prakhar & Preeti” with elegant script calligraphy
+- [x] Add a blessings line for God, ancestors, elders, and both families
+- [x] Play the uploaded song when the envelope is opened
