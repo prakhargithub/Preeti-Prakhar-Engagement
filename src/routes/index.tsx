@@ -145,7 +145,7 @@ function Invitation() {
             {dateRevealed && <Detail icon={<Clock3 />} label="Time" value="11 AM onwards" />}
             <Detail icon={<MapPin />} label="Venue" value="Hotel Swagat, Raebareli" />
           </div>
-          <a href="https://maps.app.goo.gl/TameYYKrqrssi7fH7" target="_blank" rel="noopener noreferrer" onClick={(e) => { e.preventDefault(); const url = e.currentTarget.href; const w = window.open(url, "_blank", "noopener,noreferrer"); if (!w) window.top ? (window.top.location.href = url) : (window.location.href = url); }} className="mt-9 inline-flex min-h-11 items-center gap-2 rounded-full bg-primary px-6 text-sm font-semibold text-primary-foreground shadow-lg transition-transform hover:-translate-y-0.5">
+          <a href="https://maps.app.goo.gl/TameYYKrqrssi7fH7" target="_blank" rel="noopener noreferrer" className="mt-9 inline-flex min-h-11 items-center gap-2 rounded-full bg-primary px-6 text-sm font-semibold text-primary-foreground shadow-lg transition-transform hover:-translate-y-0.5">
             <MapPin className="size-4" />View venue on map
           </a>
         </div>
