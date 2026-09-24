@@ -6,7 +6,7 @@ import coupleImage from "@/assets/couple.jpg";
 import chaiImage from "@/assets/chai.jpg";
 import ringImage from "@/assets/rings.jpg";
 import ganeshImage from "@/assets/ganesh-blessing.png";
-import songAsset from "@/assets/vaaroon-forever.mp3.asset.json";
+const SONG_URL = "/audio/vaaroon-forever.mp3";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -26,10 +26,13 @@ const EVENT_DATE = new Date("2026-10-16T11:00:00+05:30");
 type MusicController = { stop: () => void };
 
 function playMelody(): MusicController | null {
-  const audio = new Audio(songAsset.url);
+  const audio = new Audio(SONG_URL);
+  audio.preload = "auto";
   audio.loop = true;
   audio.volume = 0.75;
-  void audio.play();
+  void audio.play().catch(() => {
+    // Playback can be rejected by the browser; the invitation still works.
+  });
   return { stop: () => { audio.pause(); audio.currentTime = 0; } };
 }
 
