@@ -154,7 +154,7 @@ function Invitation() {
       <footer className="px-5 py-16 text-center">
         <p className="font-script text-5xl text-primary">With love,</p>
         <p className="font-display mt-2 text-3xl">Preeti & Prakhar</p>
-        <p className="mt-5 text-sm text-muted-foreground">We can’t wait to celebrate with you.</p>
+        <p className="mt-5 text-sm text-muted-foreground">Join us as we celebrate love, laughter, and new beginnings.</p>
       </footer>
     </main>
   );
