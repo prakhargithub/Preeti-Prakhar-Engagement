@@ -83,13 +83,13 @@ function Invitation() {
             <p className="mx-auto mb-5 max-w-xl text-xs font-semibold uppercase leading-5 tracking-[.2em] text-primary lg:mx-0">With the blessings of God, our ancestors and elders, together with their families</p>
             <p className="font-script text-4xl leading-tight text-primary min-[360px]:text-5xl sm:text-6xl">My daughter is getting engaged</p>
             <h1 className="mt-5 flex flex-col items-center text-primary lg:items-start">
-              <span className="font-names text-6xl leading-none min-[360px]:text-7xl sm:text-8xl lg:text-7xl xl:text-8xl">Prakhar</span>
+              <span className="font-names text-6xl leading-none min-[360px]:text-7xl sm:text-8xl lg:text-7xl xl:text-8xl">Preeti</span>
               <span className="my-1 flex items-center gap-3 text-gold lg:pl-10">
                 <span className="h-px w-8 bg-gold/40" />
                 <span className="font-romance text-4xl font-light italic">&</span>
                 <span className="h-px w-8 bg-gold/40" />
               </span>
-              <span className="font-names text-6xl leading-none min-[360px]:text-7xl sm:text-8xl lg:text-7xl xl:text-8xl">Preeti</span>
+              <span className="font-names text-6xl leading-none min-[360px]:text-7xl sm:text-8xl lg:text-7xl xl:text-8xl">Prakhar</span>
             </h1>
             <div className="mx-auto my-7 flex max-w-md items-center justify-center gap-3 text-gold lg:mx-0">
               <span className="h-px flex-1 bg-gold/40" /><Heart className="size-5 fill-current" /><span className="h-px flex-1 bg-gold/40" />
