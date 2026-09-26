@@ -11,9 +11,9 @@ const SONG_URL = "/audio/vaaroon-forever.mp3";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Prakhar & Preeti — Engagement Invitation" },
-      { name: "description", content: "You are invited to celebrate the engagement of Prakhar and Preeti on 16 October at Hotel Swagat, Raebareli." },
-      { property: "og:title", content: "Prakhar & Preeti are getting engaged" },
+      { title: "Preeti & Prakhar — Engagement Invitation" },
+      { name: "description", content: "You are invited to celebrate the engagement of Preeti and Prakhar on 16 October at Hotel Swagat, Raebareli." },
+      { property: "og:title", content: "Preeti & Prakhar are getting engaged" },
       { property: "og:description", content: "Join us on 16 October, 11 AM onwards, at Hotel Swagat, Raebareli." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -81,7 +81,7 @@ function Invitation() {
         <div className="grid w-full items-center gap-8 lg:grid-cols-[.9fr_1.1fr] lg:gap-16">
           <div className="relative z-10 text-center lg:text-left">
             <p className="mx-auto mb-5 max-w-xl text-xs font-semibold uppercase leading-5 tracking-[.2em] text-primary lg:mx-0">With the blessings of God, our ancestors and elders, together with their families</p>
-            <p className="font-script text-4xl leading-tight text-primary min-[360px]:text-5xl sm:text-6xl">We’re getting engaged</p>
+            <p className="font-script text-4xl leading-tight text-primary min-[360px]:text-5xl sm:text-6xl">My daughter is getting engaged</p>
             <h1 className="mt-5 flex flex-col items-center text-primary lg:items-start">
               <span className="font-names text-6xl leading-none min-[360px]:text-7xl sm:text-8xl lg:text-7xl xl:text-8xl">Prakhar</span>
               <span className="my-1 flex items-center gap-3 text-gold lg:pl-10">
@@ -106,7 +106,7 @@ function Invitation() {
           <div className="relative mx-auto w-full max-w-lg">
             <div className="absolute -inset-3 rotate-2 rounded-[48%_48%_45%_45%] border border-gold/40" />
             <div className="relative aspect-[4/5] overflow-hidden rounded-[48%_48%_45%_45%] border-8 border-card shadow-2xl">
-              <img src={coupleImage} alt="Illustration of Prakhar and Preeti in engagement attire" className="h-full w-full object-cover" width={1200} height={1504} />
+              <img src={coupleImage} alt="Illustration of Preeti and Prakhar in engagement attire" className="h-full w-full object-cover" width={1200} height={1504} />
             </div>
           </div>
         </div>
@@ -122,7 +122,7 @@ function Invitation() {
       <section className="mx-auto max-w-6xl px-4 py-16 sm:px-5 sm:py-24 lg:px-10">
         <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
           <div className="overflow-hidden rounded-md shadow-xl">
-            <img src={chaiImage} alt="Prakhar and Preeti sharing chai together" className="aspect-[7/5] h-full w-full object-cover" loading="lazy" width={1408} height={912} />
+            <img src={chaiImage} alt="Preeti and Prakhar sharing chai together" className="aspect-[7/5] h-full w-full object-cover" loading="lazy" width={1408} height={912} />
           </div>
           <div>
             <p className="font-script text-4xl text-primary">Our story</p>
@@ -138,7 +138,7 @@ function Invitation() {
 
       <section className="bg-card px-4 py-16 text-center sm:px-5 sm:py-20">
         <div className="mx-auto max-w-4xl">
-          <img src={ringImage} alt="Prakhar and Preeti exchanging engagement rings" className="aspect-[16/10] w-full rounded-md object-cover shadow-xl" loading="lazy" width={1408} height={912} />
+          <img src={ringImage} alt="Preeti and Prakhar exchanging engagement rings" className="aspect-[16/10] w-full rounded-md object-cover shadow-xl" loading="lazy" width={1408} height={912} />
           <TypeOnScroll as="p" text="Come celebrate with us" className="font-script mt-10 text-5xl text-primary" />
           <div className={`mt-8 grid gap-6 ${dateRevealed ? "sm:grid-cols-3" : "sm:grid-cols-1"}`}>
             {dateRevealed && <Detail icon={<CalendarDays />} label="Date" value="16 October 2026" />}
@@ -153,7 +153,7 @@ function Invitation() {
 
       <footer className="px-5 py-16 text-center">
         <p className="font-script text-5xl text-primary">With love,</p>
-        <p className="font-display mt-2 text-3xl">Prakhar & Preeti</p>
+        <p className="font-display mt-2 text-3xl">Preeti & Prakhar</p>
         <p className="mt-5 text-sm text-muted-foreground">We can’t wait to celebrate with you.</p>
       </footer>
     </main>
