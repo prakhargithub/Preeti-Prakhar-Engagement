@@ -128,9 +128,9 @@ function Invitation() {
             <p className="font-script text-4xl text-primary">Our story</p>
             <TypeOnScroll as="h2" text="From Strangers to Soulmates" className="font-display mt-2 text-4xl sm:text-5xl" />
             <div className="mt-7 space-y-5 leading-7 text-ink-soft">
-              <TypeOnScroll as="p" text="We first met as friends, where a shared laugh over a cup of chai soon turned into hours of conversation. What began as a simple friendship slowly blossomed into something deeper — a love built on respect, adventure, laughter, and, of course, endless cups of chai." speed={12} />
+              <TypeOnScroll as="p" text="Both families met, and what began as a simple introduction soon grew into something more. We first met as friends, where a shared laugh over a cup of chai soon turned into hours of conversation. What began as a simple friendship slowly blossomed into something deeper — a love built on respect, adventure, laughter, and, of course, endless cups of chai." speed={12} />
               <TypeOnScroll as="p" text="Through festive celebrations, late-night conversations, little adventures, and countless beautiful memories, we slowly realized that we had found something truly special in each other." speed={14} delay={180} />
-              <TypeOnScroll as="p" text="And now, after all the moments that brought us here, we’re ready to begin the next beautiful chapter of our story — surrounded by the people we love most." speed={14} delay={180} />
+              <TypeOnScroll as="p" text="And now, after all the moments that brought us here, we're ready to begin the next beautiful chapter of our story — surrounded by the people we love most." speed={14} delay={180} />
             </div>
           </div>
         </div>
